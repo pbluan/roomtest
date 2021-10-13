@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UpdateActivity">
+
+    <EditText
+        android:id="@+id/edt_maSV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="14dp"
+        android:textSize="16dp"
+        android:hint="masv">
+    </EditText>
+    <EditText
+        android:id="@+id/edt_hoTen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="14dp"
+        android:textSize="16dp"
+        android:hint="ho ten">
+    </EditText>
+    <EditText
+        android:id="@+id/edt_gioiTinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="14dp"
+        android:textSize="16dp"
+        android:hint="gioi tinh">
+    </EditText>
+    <EditText
+        android:id="@+id/edt_lop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="14dp"
+        android:textSize="16dp"
+        android:hint="lop">
+    </EditText>
+    <EditText
+        android:id="@+id/edt_diemToan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="14dp"
+        android:textSize="16dp"
+        android:hint="diem Toan">
+    </EditText>
+    <EditText
+        android:id="@+id/edt_diemLi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="14dp"
+        android:textSize="16dp"
+        android:hint="diem Li">
+    </EditText>
+    <EditText
+        android:id="@+id/edt_diemHoa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="14dp"
+        android:textSize="16dp"
+        android:hint="diem Hoa">
+    </EditText>
+    <Button
+        android:id="@+id/btUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#8CE6DE"
+        android:text="Update"
+        android:textColor="@color/black">
+    </Button>
+
+</LinearLayout>
